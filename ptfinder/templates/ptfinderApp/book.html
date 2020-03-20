@@ -5,4 +5,19 @@
 {% endblock %}
 
 {% block body_block %}
+<h1> Book a Session Here! </h1>
+fill out the form below and click submit to book your session <br> <br>
+
+
+Name - 
+<select name="Name">
+<option> the users name </option>
+</select> <br>
+
+Gym - <input gym="gym" size="30" type="text" /> <br> 
+Trainer -       <input trainer="trainer" size="30" type="text" /> <br> 
+Date and Time - <input time="time" type="datetime-local"> <br>  <br>
+<input name="Book" type="submit" value="Book" />
+
+
 {% endblock %}
